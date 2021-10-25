@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;	
+}
+
+a {
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+#header{
+	height: 300px;
+	text-align: center;
+	line-height: 300px;
+	letter-spacing: 0.2em;
+}
+
+#toMain{
+}
+
+#toMain > h1 > a{
+	font-family: 'Goudy Bookletter 1911', serif;
+	font-size: 35px;
+	color: #f8a501;
+	font-weight: 600;
+	text-shadow: 3px 3px 2px #bc0001;
+}
+
+#section{
+	text-align: center;
+}
+
+#id{
+	width: 300px;
+	height: 25px;
+	margin: 3px;
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+#pw{
+	width: 300px;
+	height: 25px;
+	margin: 3px;
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+#submit{
+	width: 304px;
+	height: 29px;
+	margin: 3px;
+	font-family: 'Do Hyeon', sans-serif;
+}
