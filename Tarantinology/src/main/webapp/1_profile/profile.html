@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Profile</title>
+	<link rel="stylesheet" href="./profileLayout.css">
+	<script src="http://code.jQuery.com/jQuery-3.2.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#theme1").click(function(){
+				$("#tog1").toggle(300);
+			});
+			$("#theme2").click(function(){
+				$("#tog2").toggle(300);
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="container">
+		<header id="header">
+			<div id="go2main" style="cursor: pointer;" onclick="location.href='../0_main/main.html'">
+				<div id="img">
+					<img src="../4_etc/logo.png" style="width: 100px; height: 100px">		
+				</div>
+				<div id="text">
+					Quentin Tarantino
+				</div>
+			</div>
+			<nav id="nav">
+				<ul id="topmenu">
+					<li><a href="../1_profile/profile.html">Profile</a></li>
+					<li><a href="../2_filmography/filmography.html">Filmography</a></li>
+					<li><a href="../4_etc/signup.html"><input type="button" onclick="alert('Community는 회원가입 후 이용가능합니다.')" value="Community"></a></li>
+				</ul>
+			</nav>
+			<div id="login">
+				<a href="../4_etc/login.html">Login</a>
+			</div>
+			<div id="signup">
+				<a href="../4_etc/signup.html">Sign up</a>
+			</div>
+		</header>
+		<section id="section1">	
+			<table id="table">
+				<tr>
+					<td colspan="3">
+						<img src="profile.png" style="width: 250px; height: 250px">
+					</td>
+				</tr>
+				<tr>
+					<th>본명</th>
+					<td>
+						쿠엔틴 제롬 타란티노
+						<br/>
+						Quentin Jerome Tarantino
+					</td>
+				<tr>
+					<th>출생</th>
+					<td>
+						1963년 3월 27일 (58세)
+						<br/>
+						미국 테네시 주 녹스빌
+					</td>
+				</tr>
+				<tr>
+					<th>국적</th>
+					<td>
+						<img src="USA.svg" style="width: 30px; height: 17px">
+					 	미국
+					</td> 	
+				</tr>
+				<tr>
+					<th>직업</th>
+					<td>영화 감독·각본·제작, 배우</td>
+				</tr>
+				<tr>
+					<th>활동</th>
+					<td>1987년 - 현재</td>
+				</tr>
+				<tr>
+					<th>학력</th>
+					<td>나본 하이스쿨 중퇴</td>
+				</tr>
+			</table>
+		</section>
+		<section id="section2">
+			<article id="article1">
+				<h2>비디오 가게 점원, 천재 영화감독이 되다.</h2>
+				<p id="theme1">본문 접기/펼치기</p>
+				<br/>
+				<br/>
+				<p id="tog1">
+					쿠엔틴 타란티노는 1963년 03월 27일 테네시 주 녹스빌에서 태어나 3살에 로스앤젤레스로 이주해 그곳에서 성장했다.  
+					어린 시절부터, 영화를 좋아하던 어머니를 따라다니며 영화에 눈을 뜨게 되었고, 특히 할머니와 함께 관람했던 존 웨인 감독의 영화가 뇌리에 박혀 각본에 큰 관심을 갖게 된다. 
+					<br/>
+					<br/>
+					중학교 때부터는 자신의 각본을 쓰기 시작했으며, 고교 중퇴 후 연극단의 연출 보조로 일하며 연출과 연기를 어깨너머로 배웠다. 
+					22살 무렵부터 약 5년 동안 캘리포니아 주 맨해튼 비치의 비디오 가게에서 점원으로 근무했는데, 이 기간 동안 매일 영화를 보고 주말에는 직접 영화 촬영을 하기도 했다.
+					<br/>
+					<br/>
+					점원으로서 그리고 영화광으로서 손님들과 영화에 대해서 토론하고 추천해 주길 반복하며, 그의 영화에 대한 지식과 날카롭고 뛰어난 안목 덕분에 할리우드에까지 소문이 퍼졌다. 
+					《트루 로맨스》의 각본을 판매하면서 본격적으로 이름을 알리기 시작했으며, 결국 1992년 영화 ‘저수지의 개들’로 영화감독으로 데뷔하게 된다.
+				</p>
+			</article>
+			<article id="article2">
+				<h2>쿠엔틴 타란티노 감독 작품의 특징</h2>
+				<p id="theme2">본문 접기/펼치기</p>
+				<br/>
+				<br/>
+				<p id="tog2">
+					비선형적 서사구조
+					<br/>
+					그가 감독한 영화에서 순차적으로 이야기가 진행되는 경우가 없을 정도로 비선형적 서사구조를 자주 구사한다. 
+					복잡한 시간 배열과, 두 가지 이상의 이야기를 엮어 놓는 다중 플롯 등을 기본 뼈대로 주로 사용하였다.
+					<br/>
+					<br/>
+					각본
+					<br/>
+					그의 작품의 가장 큰 특징 중 하나는 대사이다. 
+					온갖 욕설과 블랙 유머가 난무하지만 대사 하나하나의 퀄리티가 매우 높고, 대사를 통해 캐릭터의 매력을 쌓아올린 다음에 후반부에서 크게 한방 터뜨리는 것이 장기다. 
+				</p>
+			</article>
+		</section>
+		<footer id="footer">
+			<ul id="bottomMenu">
+				<li><a href="../4_etc/개인정보처리방침.pdf" download>개인정보처리방침(다운받기)</a></li>
+			</ul>
+		</footer>
+	</div>
+</body>
+</html>
