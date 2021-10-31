@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+#container{
+	width: 1200px;
+	margin: 0px auto;
+}
+
+#header{
+	width: 100%;	
+	height: 100px;
+	background-color: #000000;
+	line-height: 100px;
+}
+
+#go2main{
+	float: left;
+	width: 300px;
+	height: 100px;
+}
+
+#img{
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+#text{
+	float: left;
+	width: 200px;
+	height: 100px;
+	line-height: 100px;
+	font-family: 'Goudy Bookletter 1911', serif;
+	font-size: 27px;
+	font-weight: 600;
+	color: #f8a501;
+	text-shadow: 3px 3px 2px #bc0001;
+}	
+
+#nav{
+	float: left;
+	width: 720px;
+	height: 100px;
+	background-color: #000000;
+}
+
+#topmenu{
+	float: left;
+	height: 100px;
+	display: block;
+	line-height: 100px;
+	text-align: center;
+}
+
+#topmenu > li{
+	background-color: #000000;
+	width: 240px;	
+	float: left;
+}
+
+#topmenu > li:hover{
+	opacity: 0.5;
+}
+
+#topmenu > li > a{
+	display: block;
+	font-family: 'Goudy Bookletter 1911', serif;
+	font-size: 25px;
+	color: #f8a501;
+	text-shadow: 3px 3px 2px #bc0001;
+}
+
+#topmenu > li > a > input{
+	border: none;
+	width: 240px;
+	height: 92px;
+	font-family: 'Goudy Bookletter 1911', serif;	
+	font-size: 25px;
+	color: #f8a501;	
+	text-shadow: 3px 3px 2px #bc0001;
+	background-color: #000000;
+	cursor: pointer;
+	margin: 0px;
+}
+
+#login{
+	width: 180px;
+	height: 50px;
+	float: right;
+	background-color: #000000;
+	text-align: center;
+	line-height: 50px;
+	letter-spacing: 0.3em;
+}
+
+#login > a{
+	font-size: 17px;
+	font-family: 'Goudy Bookletter 1911', serif;
+	color: #FFFFFF;
+	font-weight: 600;
+	text-shadow: 3px 3px 2px #888888;
+}
+
+#login > a:hover{
+	opacity: 0.5;
+}
+
+
+#signup{
+	width: 180px;
+	height: 50px;
+	float: right;
+	background-color: #000000;
+	text-align: center;
+	line-height: 50px;
+	letter-spacing: 0.3em;
+}
+
+#signup > a{
+	font-size: 17px;
+	font-family: 'Goudy Bookletter 1911', serif;
+	color: #FFFFFF;
+	font-weight: 600;
+	text-shadow: 3px 3px 2px #888888;
+}
+
+#signup > a:hover{
+	opacity: 0.5;
+}
+
+#section{
+	width: 1200px;
+	height: 650px;
+	background-color: #FFFFFF;
+	text-align: center;
+	float: left;
+}
+
+#head{
+	width: 1200px;
+	font-weight: 500;
+	height: 100px;
+	line-height: 100px;
+}
+
+.figure{
+	position: relative;
+	float: left;
+	margin: 0px 20px 15px 45px;
+	line-height: 0px;
+	font-size: 15px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.poster{
+	width: 170px;
+	height: 221px;
+}
+
+.poster:hover{
+	opacity: 0.5;
+}
+
+.caption{
+	color: #000000;
+	line-height: normal;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	box-sizing: border-box;
+}
+
+#footer{
+	width: 1200px;
+	height: 50px;
+	background-color: #888888;
+	clear: left;
+}
+#footer{
+	width: 1200px;
+	height: 50px;
+	background-color: #282828;
+	clear: left;
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+#bottomMenu{
+	width: 1200px;
+	height: 50px;
+	border-top: 5px solid #f8a501;
+}
+
+#bottomMenu > li{
+	float: left;
+	margin-top: 15px;
+}
+
+#bottomMenu > li > a{
+	font-size: 17px;
+	color: #FFFFFF;
+	font-weight: 300;
+	text-shadow: 1px 1px 1px  #000000;
+	margin: 0px 30px;
+}
+
+#bottomMenu > li > a:hover{
+	opacity: 0.5;
+}
