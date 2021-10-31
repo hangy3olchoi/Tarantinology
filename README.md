@@ -6,3 +6,5 @@
 개발언어: HTML, CSS, JS
 <br/>
 개발도구: Eclipse
+
+<https://velog.io/@hangy3olchoi/HTMLCSSJS-%EC%9B%B9-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" target="_blank">자세한 내용 살펴보기.</a>
